@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/{{ css }}.css"/>
+  <link href="/img/cmypaw.gif" rel="shortcut icon" type="image/ico">
+
+  <title>animals' den ➜ {{ title }}</title>
+</head>
+
+<body>
+  <header>{% include 'partials/pokemon/header.nunjucks' %}</header>
+
+  <nav class="sticky">{% include 'partials/cmyk/navigation.nunjucks' %}</nav>
+
+<div id="container" class="window active">
+   {% include 'partials/cmyk/status.nunjucks' %}
+    <main class="window-body">
+      <div id="flex">
+        {% include 'partials/pokemon/leftsidebar.nunjucks' %}
+        {{ content | safe }} 
+        {% include 'partials/pokemon/rightsidebar.nunjucks' %}       
+      </div>
+    </main>
+</div>
+  <footer>{% include 'partials/footer.nunjucks' %}</footer>
+
+</body>

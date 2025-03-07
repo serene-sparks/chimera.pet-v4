@@ -1,0 +1,7 @@
+    <section>
+        <a href="/"><img class="logo" draggable="false" src="/img/greenlogo3.png"></a>
+    </section>
+
+    <section>
+        <a href="/"><img class="mascot" draggable="false" src="/img/kawaanago.png"></a>
+    </section>

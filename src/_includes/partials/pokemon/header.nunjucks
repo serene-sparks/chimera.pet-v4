@@ -1,0 +1,7 @@
+    <section class="mascot">
+        <a href="/home"><img class="mascot" draggable="false" alt="Cirrus header art" src="/img/cirruschibi.png"></a>
+    </section>
+
+    <section>
+        <a href="/home"><img class="logo" draggable="false" alt="Chimera.pet CMYK logo" src="/img/cmyklogo2.png" style="image-rendering:initial"></a>
+    </section>

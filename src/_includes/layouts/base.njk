@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/{{ css }}.css"/>
+  <link href="/img/cmypaw2.gif" rel="shortcut icon" type="image/ico">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>animals' den ➜ {{ title }}</title>
+</head>
+
+<body>
+  <header>{% include 'partials/header.nunjucks' %}</header>
+
+  <nav class="sticky">{% include 'partials/navigation.nunjucks' %}</nav>
+
+<div id="container" class="window active">
+   {% include 'partials/status.nunjucks' %}
+    <main class="window-body">
+      {{ content | safe }}        
+      </div>
+    </main>
+</div>
+  <footer>{% include 'partials/footer.nunjucks' %}</footer>
+
+</body>

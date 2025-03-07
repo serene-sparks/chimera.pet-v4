@@ -1,0 +1,23 @@
+<div id="desktop">
+
+<div id="navlink"><a href="/">Home</a></div>
+<div id="navlink"><a href="/info/">Commission info</a></div>
+<div id="navlink"><a href="/links/">Examples</a></div>
+<div id="navlink"><a href="/tos/">Terms of Service</a></div>
+<div id="navlink"><a href="/contact/">Contact me!</a></div>
+
+</div>
+
+{# mobile menu #}
+
+<div id="mobilemenu">
+<details>
+    <summary><img src="/img/hamburger2.png" style="max-width:64px"></summary>
+        <div id="navlink"><a href="/">Home</a></div>
+        <div id="navlink"><a href="/info/">Commission info</a></div>
+        <div id="navlink"><a href="/links/">Examples</a></div>
+        <div id="navlink"><a href="/tos/">Terms of Service</a></div>
+        <div id="navlink"><a href="/contact/">Contact me!</a></div>
+</details>
+
+</div>

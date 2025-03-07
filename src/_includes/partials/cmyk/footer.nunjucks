@@ -1,0 +1,11 @@
+<section class="row">
+    <span class="text">est. 2023 - 20XX <img src="/img/pokemail.gif" class="pixel"> <span class="larger"><a href="mailto:mail@chimera.pet">chimera</a></span></span>
+</section>
+
+<section>
+    <div class="inner">
+        <div class="quote">
+        A random quote goes here!
+        </div>
+    </div>
+</section>

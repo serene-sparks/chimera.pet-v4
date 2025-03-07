@@ -1,0 +1,7 @@
+    <section class="mascot">
+        <a href="/home"><img class="mascot" draggable="false" src="/img/cupidcry.png"></a>
+    </section>
+
+    <section>
+        <a href="/home"><img class="logo" draggable="false" src="/img/cmyklogo2.png"></a>
+    </section>

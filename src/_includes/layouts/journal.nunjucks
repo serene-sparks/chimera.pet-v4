@@ -1,0 +1,5 @@
+---
+layout: cmyk.njk
+---
+
+<article>{{ content | safe}}</article>
