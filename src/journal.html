@@ -10,42 +10,27 @@ icon: icon
     <div class="entries column">
       {% for post in collections.entry | reverse %}
       <article class="outer {{ post.data.color }}border" >
-        <h2 class="title"><a href="{{post.url}}"> {{ post.data.title }} </a></h2>
-        <div id="flex">
-          <section class="icon"> 
-          <img src="/img/icons/{{ post.data.icon }}.png" alt="Journal entry icon"> 
-          </section>   
+          <h2 class="title"><a href="{{post.url}}"> {{ post.data.title }} </a></h2>
+          <div id="flex">
+            <section class="icon"> 
+            <img src="/img/icons/{{ post.data.icon }}.png" alt="Journal entry icon"> 
+            </section>   
 
-          <div class="inner">
-            <p>
-             
-                  <p>{{ post.templateContent | truncate: 180 | strip_html }}</p>
-             
-            </p>
+            <div class="inner">
+              {% block content %}            
+                <p>{{ post.templateContent | truncate: 250 | strip_html }}</p>
+              {% endblock %}
+            </div>
           </div>
-        </div>
-        <section class="journal-footer">
-          <span class="date">{{ post.date | date_to_long_string }} <img src="/img/date.gif" alt="Journal pixel"></span>
-          <span class="date">tagged as: {{ post.data.tags | join: ", "}}</span>
-        </section>
+          <section class="journal-footer">
+            <span class="date">{{ post.date | date_to_long_string }} <img src="/img/date.gif" alt="Journal pixel"></span>
+            <span class="date">tagged as: {{ post.data.tags | join: ", "}}</span>
+          </section>
       </article>
       {% endfor %}
     </div>
 
-    <div class="info column">
-      <section class="pagedoll">
-        <img src="/img/cirruschibi.png">
-      </section>
-    <section class="tags">
-      <p>blah blah blah blah blah 123 </p>
-
-      <h3 align="center">tags</h3>
-      <p>
-        {% for post in collections.entry | reverse %}
-        {{ post.data.tags }}
-        {% endfor %}
-      </p>
-    </section>
-    </div>
+    {% include 'journalinfo.njk' %}
+    
   </div>
 </section>

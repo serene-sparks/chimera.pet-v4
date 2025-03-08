@@ -6,7 +6,7 @@
     <div class="inner">
         <div id="footer_text" class="quote">
             <script src="../js/quotes.js"></script>
-         
+            <script src="../js/global.js"></script>
         </div>
     </div>
 </section>
