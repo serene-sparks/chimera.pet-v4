@@ -5,26 +5,35 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="/css/{{ css }}.css"/>
+  <link rel="stylesheet" href="/css/pokemon.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://iframe.chat/scripts/main.min.js"></script>
   <link href="/img/cmypaw.gif" rel="shortcut icon" type="image/ico">
 
-  <title>animals' den ➜ {{ title }}</title>
+  <title>animals' den ➜ pokemon ➜ {{ title }}</title>
 </head>
 
 <body>
-  <header>{% include 'partials/pokemon/header.nunjucks' %}</header>
-
   <nav class="sticky">{% include 'partials/cmyk/navigation.nunjucks' %}</nav>
 
 <div id="container" class="window active">
    {% include 'partials/cmyk/status.nunjucks' %}
     <main class="window-body">
+      <header>{% include 'src/pokemon/header.nunjucks' %}</header>
+      {% include 'src/pokemon/marquee.nunjucks' %}
       <div id="flex">
+        <aside id="leftsidebar">
         {% include 'partials/pokemon/leftsidebar.nunjucks' %}
+        </aside>
+        <section class="wrapper" style="width:100%">
         {{ content | safe }} 
-        {% include 'partials/pokemon/rightsidebar.nunjucks' %}       
+        </section>
+        <aside id="rightsidebar">
+        {% include 'partials/pokemon/rightsidebar.nunjucks' %} 
+        </aside>     
       </div>
     </main>
 </div>
   <footer>{% include 'partials/footer.nunjucks' %}</footer>
-
+  <script src="/js/global.js">
 </body>

@@ -1,3 +1,81 @@
-<aside>
-    RIGHT
-</aside>
+
+
+<h3 class="viridian">POTM<a title="Pokemon of the Month">*</a></h3>
+
+<main>
+    <section class="blank">
+        <div>
+            <p align="center"><img src="https://archives.bulbagarden.net/media/upload/9/9c/Spr_3e_162.png"></p>
+            
+        </div>
+    </section>
+</main>
+
+<h3 class="ilex">Poll</h3>
+
+<main>
+    <section class="heartgold">
+   
+
+    <form method="post" action="https://poll.pollcode.com/67255341">
+    
+        <div style="padding:2px 0px 4px 2px;"><strong>Which Kieran do you like best?</strong></div>
+        <input type="radio" name="answer" value="1" id="answer672553411" style="float:left;" />
+        <label for="answer672553411" style="float:left">Teal Mask</label>
+        <div style="clear:both;height:2px;"></div>
+        <input type="radio" name="answer" value="2" id="answer672553412" style="float:left;" />
+        <label for="answer672553412" style="float:left">Indigo Disk</label>
+        <div style="clear:both;height:2px;"></div>
+        <input type="radio" name="answer" value="3" id="answer672553413" style="float:left;" />
+        <label for="answer672553413" style="float:left">Mochi Mayhem</label>
+        <div style="clear:both;height:2px;"></div>
+        <div align="center" style="padding:3px;">
+            <input type="submit" value=" Vote ">&nbsp;
+            <input type="submit" name="view" value=" View ">
+   
+        <div class="pollcode" align="right"><a href="https://pollcode.com/">pollcode.com</a></div>
+    </div>
+</form>
+
+    </p>
+    <p style="margin:-18px" align="right"><img src="/img/pokemon/pointer.gif"></p>
+    </section>
+
+    <p style="color:white" align="center">[ <a>poll history</a> ]</p>
+</main>
+
+<h3 class="viridian">Shoutbox</h3>
+
+<main>
+    <section class="blank">
+    <iframe src='https://iframe.chat/embed?chat=02068712' id='chattable' frameborder='none'></iframe>
+    <script>
+    chattable.initialize({
+        stylesheet : "/css/pokemonchattable.css"
+    });
+    </script>
+    </section>
+</main>
+
+<h3 class="viridian">Affiliates</h3>
+
+<main>
+    <section class="blank">
+        <p style="color:white" align="center">None... yet.</p>
+    </section>
+    <p style="color:white" align="center"><img src="/img/pokemon/pikamail2.gif"><br>Want to be listed here? Email me!</p>
+</main>
+
+<h3 class="ilex">Credits</h3>
+
+<main>
+    <section>
+        <div class="links">
+            <a>graphics</a>
+        </div>
+        <div class="links">
+            <a>resources</a>
+        </div>
+    </section>
+</main>
+

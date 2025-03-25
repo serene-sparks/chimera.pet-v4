@@ -1,12 +1,14 @@
 <section class="row">
-    <span class="text">est. 2023 - 20XX <img src="/img/pokemail.gif" class="pixel"> <span class="larger"><a href="mailto:mail@chimera.pet">chimera</a></span></span>
+    <span class="text"><span title="From now until the end of time!" id="copyright-date">est. 2023 - 20XX</span>&nbsp;<img src="/img/pokemail.gif" alt="Pikachu poking its head out of an envelope labeled メール" class="pixel"> <span class="larger"><a title="Email me!" href="mailto:mail@chimera.pet">chimera</a></span></span>
 </section>
 
 <section>
     <div class="inner">
         <div id="footer_text" class="quote">
-            <script src="../js/quotes.js"></script>
-            <script src="../js/global.js"></script>
+            <script src="https://unpkg.com/@popperjs/core@2"></script>
+            <script src="https://unpkg.com/tippy.js@6"></script>
+            <script src="/js/quotes.js"></script>
+            <script src="/js/global.js"></script>
         </div>
     </div>
 </section>

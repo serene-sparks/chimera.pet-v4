@@ -1,0 +1,7 @@
+    <section>
+        <a href="/pokemon"><img class="logo" draggable="false" alt="'Welcome to my Pokemon Page' spelled by Unown" src="/img/pokemon/welcome.gif" style="image-rendering:initial"></a>
+    </section>
+
+    <section class="mascot">
+        <a href="/pokemon"><img title ="Artwork by fourleafisland" class="mascot" draggable="false" alt="Cirrus header art" src="/img/cirruschibi.png"></a>
+    </section>

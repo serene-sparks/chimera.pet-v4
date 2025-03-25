@@ -1,7 +1,11 @@
     <section class="mascot">
-        <a href="/home"><img class="mascot" draggable="false" src="/img/cupidcry.png"></a>
+        <a href="/home"><img title="Artwork by cupidcry" class="mascot" draggable="false" src="/img/cupidcry.png" alt="Fursona header image"></a>
     </section>
 
     <section>
-        <a href="/home"><img class="logo" draggable="false" src="/img/cmyklogo2.png"></a>
+        <a href="/home">
+       
+        <img class="logo" draggable="false" src="/img/cmyklogo.svg" type="image/svg+xml" alt="CMYK Chimera.pet logo" style="width: 40vw;" title="Logos by hopehopever">
+        
+        </a>
     </section>

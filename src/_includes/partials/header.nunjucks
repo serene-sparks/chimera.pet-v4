@@ -1,7 +1,7 @@
     <section>
-        <a href="/"><img class="logo" draggable="false" src="/img/greenlogo3.png"></a>
+        <a href="/art/"><img class="logo" draggable="false" src="/img/greenlogo.svg" alt="Green Chimera.pet logo" style="width: 40vw;" title="Logos by hopehopever"></a>
     </section>
 
     <section>
-        <a href="/"><img class="mascot" draggable="false" src="/img/kawaanago.png"></a>
+        <a href="/art/"><img title="Artwork by kawaanago0827" class="mascot" draggable="false" src="/img/kawaanago.png" alt="Critter header image"></a>
     </section>

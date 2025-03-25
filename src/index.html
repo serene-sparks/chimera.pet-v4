@@ -1,23 +1,79 @@
 ---
 title: index
-layout: layouts/base.njk
+layout: layouts/blank.njk
 pixel: cmypaw
-css: chimera
+css: index
 ---
 
-<div class="inner">
-  <h1>{{ title }}</h1>
+<div class="row" id="desktop" style="max-width:60%;align-items:center;margin:0 auto;margin-top:100px;">
+  <div class="column"  id="main">
+    <div class="main"><img src="/img/cmyklogo.svg" title="Logos by hopehopever" alt="CMYK Chimera.pet logo"></div>
+  <a href="/home/">
+    <img src="/img/art/final.gif" alt="Animation of my fursona doodling in a journal. It leads to the main section of the website.">
+  </a>
+  <p>Head to the main website.</p>
+  </div>
 
-<p>okay this is the LEGIT INDEX! it's gonna get gutted!</p>
+  <div class="column">
+    <div id="info" class="inner">
+      <p>Not intended for those under the age of 18.</p>
+      <p>This website uses Javascript.</p>
+    <p>Something look broken? Try <a style="text-decoration-style: dashed!important;;text-decoration:underline" title="CTRL + F5 on PC">hard refreshing</a> first!</p>
+      <p>
+        <img src="/img/buttons/responsive.png" alt="Responsive website 88x31 button">
+        <img src="/img/buttons/18plus.png" alt="This site is not intended for children 88x31 button">
+      </p>
+    </div>
+  </div>
 
-
-
-Jump five feet high and sideways when a shadow moves. Headbutt owner's knee nyan fluffness ahh cucumber! go into a room to decide you didn't want to be in there anyway if it fits i sits and disappear for four days and return home with an expensive injury; bite the vet. Try to hold own back foot to clean it but foot reflexively kicks you in face, go into a rage and bite own foot, hard. Ha ha, you're funny i'll kill you last bathe private parts with tongue then lick owner's face, sleep nap for enslave the hooman hide at bottom of staircase to trip human. Ccccccccccccaaaaaaaaaaaaaaatttttttttttttttttssssssssssssssss run around the house at 4 in the morning, or catty ipsum chase laser so pet me pet me don't pet me so stinky cat cough. It's 3am, time to create some chaos annoy owner until he gives you food say meow repeatedly until belly rubs, feels good wack the mini furry mouse it's 3am, time to create some chaos why use post when this sofa is here paw at your fat belly and catching very fast laser pointer.
-
-Miaow then turn around and show you my bum wake up human for food at 4am chase ball of string cat walks in keyboard pounce on unsuspecting person hide head under blanket so no one can see, kitty time. Paw at beetle and eat it before it gets away always hungry or being gorgeous with belly side up, groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked. Kitty kitty hide when guests come over, sugar, my siamese, stalks me (in a good way), day and night meowzer. Jump up to edge of bath, fall in then scramble in a mad panic to get out chew the plant give me some of your food give me some of your food give me some of your food meh, i don't want it and plan steps for world domination for chase little red dot someday it will be mine! but scratch me now! stop scratching me!, so lick human with sandpaper tongue. Try to hold own back foot to clean it but foot reflexively kicks you in face, go into a rage and bite own foot, hard vommit food and eat it again but dismember a mouse and then regurgitate parts of it on the family room floor, cat walks in keyboard or scamper so love to play with owner's hair tie crusty butthole. Attack the dog then pretend like nothing happened be superior under the bed.
-
-Playing with balls of wool. Jump up to edge of bath, fall in then scramble in a mad panic to get out. When in doubt, wash ears back wide eyed. Make plans to dominate world and then take a nap love but put butt in owner's face or eat from dog's food but where is it? i saw that bird i need to bring it home to mommy squirrel! . Meeeeouw.
-
-
+<div class="column" id="art">
+<div class="art">
+  
+<img src="/img/greenlogo.svg" title="Logos by hopehopever" alt="Green Chimera.pet logo">
 
 </div>
+<a href="/art/">
+<img src="/img/art/splash.gif" alt="Animation of the site mascot Critter tossing a paintbrush. It leads to the Art section of the website.">
+</a>
+<p align="center">Head to the art section.</p>
+</div>
+</div>
+
+<!-- mobile only start -->
+
+<div class="row mobileonly" style="max-width:80%;align-items:center;margin:0 auto;margin-top:50px;">
+  <div class="column"  id="main">
+    <div class="main"><img src="/img/cmyklogo.svg" title="Logos by hopehopever" alt="CMYK Chimera.pet logo"></div>
+  <a href="/home/">
+    <img src="/img/art/final.gif" alt="Animation of my fursona doodling in a journal. It leads to the main section of the website.">
+  </a>
+  <p>Head to the main website.</p>
+  </div>
+
+  <div class="column" id="art">
+    <div class="art">
+      
+    <img src="/img/greenlogo.svg" title="Logos by hopehopever" alt="Green Chimera.pet logo">
+    
+    </div>
+    <a href="/art/">
+    <img src="/img/art/splash.gif" alt="Animation of the site mascot Critter tossing a paintbrush. It leads to the Art section of the website.">
+    </a>
+    <p align="center">Head to the art section.</p>
+    </div>
+  </div>
+
+  <div class="column mobileonly">
+    <div id="info" class="inner">
+      <p style="color:red">Not intended for those under the age of 18.</p>
+    <p>Something look broken? Try hard refreshing first!</p>
+      <p>
+        <img src="/img/buttons/responsive.png" alt="Responsive website 88x31 button">
+        <img src="/img/buttons/18plus.png" alt="This site is not intended for children 88x31 button">
+      </p>
+    </div>
+  </div>
+<footer>
+    {% include '_includes/partials/footer.nunjucks' %}
+</footer>
+

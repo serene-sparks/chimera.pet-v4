@@ -1,10 +1,11 @@
 <div id="desktop">
 
-<div id="navlink"><a href="/">Home</a></div>
-<div id="navlink"><a href="/info/">Commission info</a></div>
-<div id="navlink"><a href="/links/">Examples</a></div>
-<div id="navlink"><a href="/tos/">Terms of Service</a></div>
-<div id="navlink"><a href="/contact/">Contact me!</a></div>
+<div class="greenborder" id="navlink"><a href="/art/">Art index</a></div>
+<div class="yellowborder" id="navlink"><a href="/info/">Commission info</a></div>
+<div class="purpleborder" id="navlink"><a href="/gallery/">Gallery</a></div>
+<div class="yellowborder" id="navlink"><a href="/tos/">Terms of Service</a></div>
+<div class="greenborder" id="navlink"><a href="/contact/">Contact me</a></div>
+<div id="navlink"><a href="/home/">Main site <img src="/img/house.gif" alt="House pixel"></a></div>
 
 </div>
 
@@ -13,11 +14,12 @@
 <div id="mobilemenu">
 <details>
     <summary><img src="/img/hamburger2.png" style="max-width:64px"></summary>
-        <div id="navlink"><a href="/">Home</a></div>
-        <div id="navlink"><a href="/info/">Commission info</a></div>
-        <div id="navlink"><a href="/links/">Examples</a></div>
-        <div id="navlink"><a href="/tos/">Terms of Service</a></div>
-        <div id="navlink"><a href="/contact/">Contact me!</a></div>
+       <div class="greenborder" id="navlink"><a href="/art/">Art index</a></div>
+<div class="yellowborder" id="navlink"><a href="/info/">Commission info</a></div>
+<div class="greenborder" id="navlink"><a href="/gallery/">Gallery</a></div>
+<div class="yellowborder" id="navlink"><a href="/tos/">Terms of Service</a></div>
+<div class="greenborder" id="navlink"><a href="/contact/">Contact me</a></div>
+<div id="navlink"><a href="/home/">Main site <img src="/img/house.gif" alt="House pixel"></a></div>
 </details>
 
 </div>

@@ -1,0 +1,98 @@
+:root {
+    --highlight: #264f0e;
+    --header-bg: #6f8c1a;
+    --header-image: url('/img/tv.jpg');
+    --main-bg: url('/img/puppy.png') !important;
+    --outerbg: url('/img/wobble.gif');
+}
+
+.tos {
+    margin: 0 !important;
+    border-top: 0 !important;
+}
+
+
+
+header {
+    background-image: var(--header-image);
+}
+
+.logo:hover {
+    transform: perspective(1000px) rotateX(6deg) rotateY(-24deg) rotateZ(2deg) scale(1.1) !important
+}
+
+.open, .closed {
+    font-family: miniwakuwaku;
+    float: initial !important;
+}
+
+.open, .closed img {
+    max-height: 32px;
+}
+
+.closed {
+    color: tomato;
+}
+
+.open::after {
+    content: "OPEN! " url('/img/happy.gif');
+}
+
+.open {
+    color: yellowgreen;
+}
+
+.closed::after {
+    content: "CLOSED! " url('/img/sad.gif');
+    image-rendering: initial;
+}
+
+.purpleborder {
+    border-image-source: url('/img/imgborderpurple.png') !important;
+}
+
+
+h3, h4 {
+    margin: 1em !important;
+}
+
+.payment {
+    padding: 1.5em;
+}
+
+.payment details > summary {
+    display: flow-root list-item !important;
+}
+
+.payment details {
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 10px;
+    background: url('/img/greengrid.gif');
+  }
+
+.payment details:nth-child(1) {
+    margin-bottom: 1.5em;
+}
+
+.payment summary {
+    background: linear-gradient(to bottom, rgba(80, 136, 168, 0) 40%, rgb(255, 255, 255) 100%), url("/img/newleaf.gif");
+    padding: .5em;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.payment .stroke {
+    color: white;
+    font-weight: bold;
+    font-family: miniwakuwaku;
+}
+
+.payment .inner {
+    margin-top: 1em;
+}
+
+/* media query */
+
+
+
