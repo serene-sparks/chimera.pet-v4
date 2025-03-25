@@ -11,6 +11,7 @@ $('.icon,.wooden').hover(function() {
 // });
 
 // to ethan if you read this: while i appreciate you adding this, i want the footer to say 20XX on pur
+// to chimera if you read this: Sounds good!
 
 tippy('a[title]', {
     theme: 'custom',
@@ -24,7 +25,7 @@ tippy('a[title]', {
       reference.removeAttribute('title');
       return title;
     },
-    
+
   }),
   tippy('span[title]', {
     theme: 'custom',
@@ -38,7 +39,7 @@ tippy('a[title]', {
       reference.removeAttribute('title');
       return title;
     },
-    
+
   }),
   tippy('img[title]', {
     theme: 'custom',
@@ -52,6 +53,6 @@ tippy('a[title]', {
       reference.removeAttribute('title');
       return title;
     },
-    
+
   });
 
