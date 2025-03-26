@@ -92,7 +92,52 @@ h3, h4 {
     margin-top: 1em;
 }
 
+.thumb {
+    width: fit-content;
+}
+
+.thumb img {
+    background:url('/img/dots.gif');
+    box-shadow: 2px 2px 1px 0px inset #00000080;
+    min-width:100px;
+    min-height:100px;
+    border: none;
+}
+
+.gallery-thumbs {
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#flex > #desktop {
+    flex-direction: column;
+}
+
+.gallery-holder .inner {
+    transition: transform .3s ease-out;
+    border: 3px double;
+}
+
+.data {
+    background-image: url('/img/data.png');
+    border-right: 5px double var(--highlight);
+    margin: -20px;
+    padding: 20px;
+}
+
 /* media query */
 
 
+@media only screen and (max-width: 800px) {
 
+    .gallery-holder {
+        margin: -2em;
+        margin-top: initial;
+    }
+
+    .data {
+        border-right: 0;
+    }
+
+}
