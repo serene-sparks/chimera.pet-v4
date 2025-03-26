@@ -5,7 +5,7 @@ $('.icon,.wooden').hover(function() {
     $(this).css('transform', 'none');
 });
 
-$('.gallery-holder .inner').hover(function() {
+$('.thumb').hover(function() {
   const a = Math.random() * 15 - 5;
   $(this).css('transform', 'rotate(' + a + 'deg) scale(1.2)');
 }, function() {

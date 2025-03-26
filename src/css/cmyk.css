@@ -360,7 +360,7 @@ content: "?";
     border: 10px solid transparent;
     border-image: url('/img/woodborder.png') 18;
     border-image-width: 2;
-    border-radius:12px;
+    border-radius:17px;
     transition: transform ease-out .2s;
     box-shadow: 2px 2px 2px #7a6d7e;
 }
@@ -416,6 +416,10 @@ article.cyanborder a:hover {
 h2 a:hover::after {
     content: url('/img/doggy arrow2.gif');
 }
+
+.journal-footer a:nth-child(1) {
+    display: none;
+  }
 
 #journal .info {
     background: url('/img/cmykpuppy.gif');

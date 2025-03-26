@@ -92,9 +92,24 @@ h3, h4 {
     margin-top: 1em;
 }
 
-.thumb {
-    width: fit-content;
+.payment h3 {
+    font-family: miniwakuwaku;
+    margin:0 !important;
 }
+
+.thumb {
+    transition: transform .3s ease-out;
+    width: fit-content;
+    box-shadow: 4px 4px 4px #7a6d7e;
+}
+
+#row.highlight-tags .tag:nth-child(1) {
+    display: none;
+  }
+
+#row.highlight-tags {
+    text-align: center;
+  }
 
 .thumb img {
     background:url('/img/dots.gif');
@@ -102,6 +117,7 @@ h3, h4 {
     min-width:100px;
     min-height:100px;
     border: none;
+    image-rendering: pixelated;
 }
 
 .gallery-thumbs {
@@ -117,6 +133,7 @@ h3, h4 {
 .gallery-holder .inner {
     transition: transform .3s ease-out;
     border: 3px double;
+    border-radius: 8px;
 }
 
 .data {
@@ -125,6 +142,67 @@ h3, h4 {
     margin: -20px;
     padding: 20px;
 }
+
+.tag-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag-holder .wooden {
+    height: fit-content;
+    box-shadow: 2px 2px 2px black;
+}
+
+.data .outer {
+    padding: 0;
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+}
+
+.cork {
+    background-image: url('/img/cork.png');
+    background-size: 200px;
+    border-image: url('/img/pmdtextbox.png') 32 round !important;
+    border-image-width: 2 !important;
+    border-radius: 16px;
+    border: 10px solid transparent;
+    padding: 2em;
+}
+
+.cork .thumb {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.532);
+}
+
+.cork .inner.thumb::before {
+    background-color: rgba(255, 236, 190, 0.91);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+    content: "";
+    display: block;
+    height: 21px;
+    margin: auto;
+    margin-top: -15px;
+    width: 40px;
+    pointer-events: none;
+    position: absolute;
+    margin-left: -25px;
+    transform: rotate(-40deg);
+    }
+.cork .inner.thumb::after {
+    background-color: rgba(255, 236, 190, 0.91);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+    content: "";
+    display: block;
+    height: 21px;
+    margin: auto;
+    margin-top: -119px;
+    width: 40px;
+    pointer-events: none;
+    position: absolute;
+    margin-left: 85px;
+    transform: rotate(40deg);
+    }
 
 /* media query */
 
@@ -140,4 +218,11 @@ h3, h4 {
         border-right: 0;
     }
 
+    #mobilemenu {
+        display: flex;
+    }
+
+    #mobilemenu.data {
+        border-bottom: 5px double var(--highlight);
+    }
 }

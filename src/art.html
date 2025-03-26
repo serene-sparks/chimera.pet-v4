@@ -22,7 +22,7 @@ comms: open
       </div>
 
       <div class="inner" style="text-align:center">
-        My name's <a href="/about" title="Hey, who's that...?"><b>
+        My name's <a title="Read more about me, uh... soon!"><b>
           <span class="wobble">
             <span>C</span>
             <span>H</span>
@@ -94,9 +94,18 @@ comms: open
     <div class="column">
       <div class="outer yellowborder" style="padding-top:0">
         <h3 align="center">Last completed work</h3>
-        <div class="inner">
-          create a post collection here that generates pages
-        </div>
+        <!-- TY to sen.fish for the inspo on the sticky notes :+) -->
+        <div class="inner cork">
+        <div id="flex" class="gallery-thumbs" style="flex-direction: column;align-content: center;">
+          {% for post in collections.picture limit:1 %}
+          <div class="inner thumb">
+              {{ post.templateContent }}
+          </div>
+          {% endfor %}
+          
+      </div>
+    </div>
+      <p align="center"><img src="/img/sign.gif" alt="Sign pixel"> Check out my gallery for more examples of my work!</p>
       </div>
     </div>
 
