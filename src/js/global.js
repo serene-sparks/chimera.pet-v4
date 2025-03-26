@@ -10,6 +10,11 @@ $('.icon,.wooden').hover(function() {
 //     $('#copyright-date').text('est. 2023 - ' + currentYear);
 // });
 
+// dynamically assign email link to avoid spam bots
+$(document).ready(function() {
+    $('#email-link').attr('href', 'mailto:mail@chimera.pet');
+});
+
 // to ethan if you read this: while i appreciate you adding this, i want the footer to say 20XX on pur
 // to chimera if you read this: Sounds good!
 
