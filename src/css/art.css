@@ -204,6 +204,21 @@ h3, h4 {
     transform: rotate(40deg);
     }
 
+    .gallery-holder .inner.thumb::before {
+        background-color: rgba(255, 236, 190, 0.91);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+        content: "";
+        display: block;
+        height: 21px;
+        margin: auto;
+        margin-top: -15px;
+        width: 40px;
+        pointer-events: none;
+        position: absolute;
+        margin-left: 30px;
+        transform: rotate(10deg);
+        }
+
 /* media query */
 
 
@@ -212,6 +227,11 @@ h3, h4 {
     .gallery-holder {
         margin: -2em;
         margin-top: initial;
+    }
+
+    .gallery-thumbs {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .data {
