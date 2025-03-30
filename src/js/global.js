@@ -12,6 +12,7 @@ $('.thumb').hover(function() {
   $(this).css('transform', 'none');
 });
 
+
 // $(document).ready(function() {
 //     const currentYear = new Date().getFullYear();
 //     $('#copyright-date').text('est. 2023 - ' + currentYear);

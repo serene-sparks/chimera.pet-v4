@@ -44,7 +44,7 @@
 
 <div id="mobilemenu">
     <details>
-    <summary><img src="/img/hamburger.png"></summary>
+    <summary><img src="/img/hamburger.png" alt="Navigation hamburger menu"></summary>
 {# mobile links start #}
 <<div id="navlink" class="yellowborder"><a href="/home">Home</a></div>
 

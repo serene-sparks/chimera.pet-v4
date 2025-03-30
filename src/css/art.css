@@ -137,6 +137,7 @@ h3, h4 {
 }
 
 .data {
+    background-color: black;
     background-image: url('/img/data.png');
     border-right: 5px double var(--highlight);
     margin: -20px;
@@ -237,6 +238,10 @@ h3, h4 {
 
     .data {
         border-right: 0;
+    }
+    
+    .data .outer {
+        padding: 1em;
     }
 
     #mobilemenu {

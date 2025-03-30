@@ -13,7 +13,7 @@
 
 <div id="mobilemenu">
 <details>
-    <summary><img src="/img/hamburger2.png" style="max-width:64px"></summary>
+    <summary><img src="/img/hamburger2.png" alt="Navigation hamburger menu" style="max-width:64px"></summary>
        <div class="greenborder" id="navlink"><a href="/art/">Art index</a></div>
 <div class="yellowborder" id="navlink"><a href="/info/">Commission info</a></div>
 <div class="greenborder" id="navlink"><a href="/gallery/">Gallery</a></div>

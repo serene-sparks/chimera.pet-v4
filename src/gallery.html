@@ -16,11 +16,10 @@ css: cmyk
             <div id="flex" class="gallery-thumbs">
                 {% for post in collections.picture reversed %}
                      <div class="inner thumb">
-                        <a href="/img/art/{{ post.data.full }}" data-fancybox="full" data-caption="{{ post.data.title }}">
+                        <a href="/img/art/{{ post.data.full }}" draggable="false" data-fancybox="full" data-caption="{{ post.data.title }}">
                             {{ post.templateContent }}
                         </a>
-                    </div>
-                
+                    </div>               
                 {% endfor %}
             </div>
             </div>
