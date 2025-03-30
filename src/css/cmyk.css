@@ -57,8 +57,8 @@ html {
 cursor: url("/img/cursor.png"), default;
 }
 
-button:hover, a:hover {
-    cursor: url("/img/select.png"), pointer;
+img, button:hover, a:hover {
+    cursor: url("/img/select.png"), pointer !important;
 }
 
 a:active, button:active {
@@ -850,6 +850,7 @@ nav .inner .row {
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 1049;
   }
 
 .title-bar #flex {

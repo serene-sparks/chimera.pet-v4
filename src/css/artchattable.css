@@ -182,6 +182,7 @@ background-color: #ffd200;
   content: attr(time);
   position: static;
   float: right;
+  font-size: small;
 }
 .allMessages.containsOnlyEmojis .emoji {
     height: 50px;

@@ -62,3 +62,6 @@ tippy('a[title]', {
     
   });
 
+  Fancybox.bind("[data-fancybox]", {
+    // Your custom options
+  });

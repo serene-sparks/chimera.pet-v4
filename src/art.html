@@ -4,6 +4,7 @@ layout: layouts/base.njk
 pixel: critter
 css: cmyk
 comms: open
+featured: zettai.png
 ---
 <div class="row">
   <div class="column two" style="flex:100%">
@@ -93,15 +94,17 @@ comms: open
 
     <div class="column">
       <div class="outer yellowborder" style="padding-top:0">
-        <h3 align="center">Last completed work</h3>
+        <h3 align="center">Featured work</h3>
         <!-- TY to sen.fish for the inspo on the sticky notes :+) -->
         <div class="inner cork">
         <div id="flex" class="gallery-thumbs" style="flex-direction: column;align-content: center;">
-          {% for post in collections.picture limit:1 %}
+          
           <div class="inner thumb">
-              {{ post.templateContent }}
+            <a href="/img/art/{{ featured }}" data-fancybox data-caption="A gift for my best friend. Read Dead Dead Demon's Dededede Destruction!">
+              <img src="/img/art/thumbs/{{ featured }}" alt="A randomly selected featured artwork">
+            </a>
           </div>
-          {% endfor %}
+         
           
       </div>
     </div>

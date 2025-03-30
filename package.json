@@ -12,6 +12,7 @@
   "type": "module",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@fancyapps/ui": "^5.0.36",
     "eleventy-plugin-blog-tools": "^0.4.1",
     "luxon": "^3.5.0",
     "striptags": "^3.2.0",
