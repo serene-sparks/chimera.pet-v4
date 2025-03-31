@@ -6,30 +6,32 @@ css: cmyk
 comms: open
 ---
 
-
 <div id="flex">
-    <div class="row">
-      <div class="column">
-        <img class="welcomesona" src="/img/art/welcome.gif" draggable="false" alt="Chimera's fursona with pixelated arrows pointing to it that say 'me'">
-      </div>
+  <div class="row">
+    <div class="column">
+      <img class="welcomesona" src="/img/art/welcome.gif" draggable="false" alt="Chimera's fursona with pixelated arrows pointing to it that say 'me'">
+    </div>
 
     <div class="column" style="flex:100%"  id="welcomebox">
       <h1 class="den" style="margin-top:0"><img src="/img/doghead.gif" alt="Fursona head wiggle pixel"> Welcome to the Animals' Den! <img src="/img/cmypaw.gif" alt="Favicon CMYK Paw symbol"></h1>
       <div class="outer">
         <div class="inner">
           <p>
-            All of a sudden, you feel a looming presence... oh, it's just <a href="/about" title="Hey, who's that...?"><b>
-              <span class="wobble">
-                <span>C</span>
-                <span>H</span>
-                <span>I</span>
-                <span>M</span>
-                <span>E</span>
-                <span>R</span>
-                <span>A</span>
-                <span>!</span>
-              </span>
-          </b></a> <img src="/img/yap.gif" alt="Barking puppy pixel"> You've wandered into my den!
+            All of a sudden, you feel a looming presence... oh, it's just <a href="/about" title="Hey, who's that...?">
+              <b>
+                <span class="wobble">
+                  <span>C</span>
+                  <span>H</span>
+                  <span>I</span>
+                  <span>M</span>
+                  <span>E</span>
+                  <span>R</span>
+                  <span>A</span>
+                  <span>!</span>
+                </span>
+              </b>
+            </a>
+            <img src="/img/yap.gif" alt="Barking puppy pixel"> You've wandered into my den!
           </p>
           <p>I'm a collection of animals who've made their home on the web. Feel free to take a break here and rest your paws. This site serves as my respite and proof of life. It's a playplace for all of the fluffy fuzzy parts of me, both big and small! Don't worry too much if things seem inconsistent... That's part of the fun! Just keep in mind that <span class="red">this site is not intended for those under the age of 18 !</span>
           </p>
@@ -44,136 +46,111 @@ comms: open
           <p>All of this, and even more is in store... deeper in the depths of Chimera.pet! Take a look around!</p>
           <p align="right" class="extra">
             <!-- FC2 Counter  Starts here -->
-            <script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=39587087&main=1"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=39587087&main=1" /></noscript>
+            <script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=39587087&main=1"></script>
+            <noscript><img src="//counter1.fc2.com/counter_img.php?id=39587087&main=1"/></noscript>
             <!-- FC2 Counter  Ends here -->
           </p>
+        </div>
       </div>
     </div>
-    </div>
-    </div>
   </div>
+</div>
 
 <h1 style="display:inline-block;margin:10px" class="loop"><img src="/img/ouroboros.gif" width="35px" style="margin-bottom:-8px" alt="Biz the dragon, coiled into a loop like an ouroboros"> Stay in the loop... </h1>
 
-  <p class="buttons">
-    <img src="/img/buttons/18plus.png" alt="This site is not intended for children 88x31 button">
-    <img src="/img/buttons/responsive.png" alt="Responsive website 88x31 button">
-    <img src="/img/buttons/vscode.png" alt="Made with VSCode 88x31 button">
-    <img src="/img/buttons/internetanimal.png" alt="Internet Animal 88x31 button">
-    <img src="/img/buttons/paws.png" alt="Made with my own two paws 88x31 button">
-    <a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button11.gif" alt="Nekoweb: The web is for cats! 88x31 button"></a>
-    <!-- button by milkyway.moe -->
-    <img src="/img/buttons/pet.gif" alt="Pet me, hold me, love me 88x31 button">
-    <img src="/img/buttons/tf_hazard.png" alt="Transformation hazard!">
-    <img src="/img/buttons/drpepper.gif" alt="Powered by Dr. Pepper 88x31 button">
+<p class="buttons">
+  <img src="/img/buttons/18plus.png" alt="This site is not intended for children 88x31 button">
+  <img src="/img/buttons/responsive.png" alt="Responsive website 88x31 button">
+  <img src="/img/buttons/vscode.png" alt="Made with VSCode 88x31 button">
+  <img src="/img/buttons/internetanimal.png" alt="Internet Animal 88x31 button">
+  <img src="/img/buttons/paws.png" alt="Made with my own two paws 88x31 button">
+  <a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button11.gif" alt="Nekoweb: The web is for cats! 88x31 button"></a>
+  <!-- button by milkyway.moe -->
+  <img src="/img/buttons/pet.gif" alt="Pet me, hold me, love me 88x31 button">
+  <img src="/img/buttons/tf_hazard.png" alt="Transformation hazard!">
+  <img src="/img/buttons/drpepper.gif" alt="Powered by Dr. Pepper 88x31 button">
+</p>
+
+<div class="row">
+  <div class="column">
+    <div class="outer pinkborder" style="padding-top:0">
+      <h2 style="margin:2% 0 3% 0;display:inline-block">
+        <img src="/img/sign.gif" alt="Sign pixel"> Update log...
+      </h2>
+      {% include "partials/updates.nunjucks" %}
+    </div>
+
+    <div style="padding-top:0;margin-top:1em" class="outer yellowborder">
+      <div class="center">
+        <div class="row col-bp-lt600" style="align-items: center; align-content: center; justify-content: center;">
+          <img style="height: 50px; width: 50px" src="/img/critter.gif" alt="Critter pixel"><h2 style="margin: 0px 0px">Comms are...</h2>
+          {% if comms == "open" %}
+            <h2 style="color:yellowgreen; margin: 0px 0px">OPEN!</h2>
+            <img src="/img/happy.gif">
+          {% else %}
+            <h2 style="color:tomato">CLOSED!</h2>
+            <img src="/img/sad.gif">
+          {% endif %}
+        </div>
+      </div>
+
+      {% if comms == "open" %}
+
+        <!-- donation buttons -->
+
+        <div align="center" class="commbuttons">
+
+          <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+          <script type='text/javascript'>
+            kofiwidget2.init('Support me on Ko-fi', '#77a84f', 'V7V694TRC');
+            kofiwidget2.draw();
+          </script>
+
+          <div class="btn-container">
+            <a title="Support me on Vgen.com" class="kofi-button" style="background-color:#77a84f;" href="https://vgen.co/chimera" target="_blank">
+              <span class="kofitext"><img src="/img/vgen.png" alt="Vgen donations" class="kofiimg vgen">Support me on Vgen</span></a>
+          </div>
+
+        </div>
+
+      {% endif %}
+
+      <div class="inner">
+        <p align="center" style="margin:0">Wanna help keep this site alive? Check out my avaliable commission types! You can also view my current queue <a href="https://trello.com/b/iMZp3z7S/chimeras-art-and-commission-queue" target="_blank">here</a>.</p>
+      </div>
+    </div>
+
+    <div style="padding-top:0;margin-top:1em" class="outer">
+      <div class="center">
+        <h2 style="margin:2% 0 3% 0;display:inline-block"><img src="/img/dog.gif" alt="Fursona pixel" style="margin-bottom: -8px"> Link out...</h2>
+
+        <div class="inner"></div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="column">
+    <div class="outer" style="padding-top:0">
+      <h2 style="margin:2% 0 3% 0;display:inline-block">
+        <img src="/img/tv.gif" alt="TV pixel"> Shoutbox...</h2>
+
+      <div class="inner" style="padding:0">
+        <iframe src='https://iframe.chat/embed?chat=35700443' id='chattable' frameborder='none'></iframe>
+        <script>
+          chattable.initialize({stylesheet: "/css/chattable.css"});
+        </script>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Ad banner -->
+<div class="row" style="align-items: center; align-content: center;">
+  <p class="ad" style="text-align: center;float:left;max-width: 50vw;min-width: 45vw;">
+    <img src="/img/art/eggbanner.gif">
   </p>
 
-  <div class="row">
-    <div class="column">
-      <div class="outer pinkborder" style="padding-top:0">
-        <h2 style="margin:2% 0 3% 0;display:inline-block"><img src="/img/sign.gif" alt="Sign pixel"> Update log...</h2>
-        <!-- UPDATES START -->
-        <div class="inner updates">
-
-          <p><img src="/img/new3.gif" alt="Pichu icon that says UP!!"> <b>X/X/2025</b> - whoa! after months of quiet work, almost every part of chimera.pet has been totally transformed... welcome to animal's den 4.0!</p>
-          <p><b>2/12/2025</b> - chimera.pet turned 2 years old!</p>
-
-          <!-- ARCHIVES -->
-        <details>
-          <summary><img src="/img/spiral.gif" alt="Color alternating CMYK spiral"> <b>OLDER ENTRIES</b> - peer through the archives...</summary>
-          <p style="border-top: 3px double"><b>9/12/24</b> - added basic site mascot intros to the front page, and how to help out</p>
-          <p><b>5/26/2024</b> - gradually been adding mobile optimization and accessibility features nearly-sitewide: added reduced-motion static pngs and slowly adding alt text</p>
-          <p><b>5/3/2024</b> - slowly began to rollout animal's den 3.0 🐾, which revamped the site layout site-wide and includes (hopefully) decent mobile responsiveness! </p>
-          <p><b>4/20/2024</b> - comments are now possible on journal entries </p>
-          <p><b>4/10/2024</b> - added soul silver hub page - reworked pokemon css </p>
-          <p><b>4/05/2024</b> - added pokemon guidebooks </p>
-          <p><b>4/01/2024</b> - april fools! </p>
-          <p><b>3/20/2024</b> - changed web hosts from neocities to nekoweb, incurring lots of small changes around the site </p>
-          <p><b>3/19/2024</b> - transformed the pokemon hub; it now contains much more content outside of the collections!</p>
-          <p><b>10/8/2023</b> - updated fennekin and flareon collections</p>
-          <p><b>10/4/2023</b> - totally new index page! animal's den 2.0 🐾</p>
-          <p><b>9/24/2023</b> - updated about... mind the gap!</p>
-          <p><b>5/17/2023</b> - uploaded some digimon scans and an AMV</p>
-          <p><b>4/29/2023</b> - added a digimon hub and a few pages to it</p>
-          <p><b>3/9/2023</b> - more journals, made site wider, misc edits</p>
-          <p><b>2/18/2023</b> - added flareon's collection page</p>
-          <p><b>2/17/2023</b> - fixed iframes some more, added status to the homepage, and started on the cassettes collection</p>
-          <p><b>2/15/2023</b> - figured out iframes (thank god), added an "about" page, and a small update to my fennekin collection</p>
-          <p><b>2/13/2023</b> - added pokemon + fennekin collection pages!</p>
-          <p><b>2/12/2023</b> - main site layout established... now for the content!</p>
-        </details>
-
-        </div>
-        <!-- UPDATES END -->
-      </div>
-
-      <div style="padding-top:0;margin-top:1em" class="outer yellowborder">
-        <div class="center">
-          <div id="flex">
-            <div style="flex:75" align="left"><h2 style="margin:2% 0 3% 0;display:inline-block"><img src="/img/critter.gif" alt="Critter pixel" style="margin-bottom: -8px"> Comms are...</h2></div>
-
-            <div style="flex:auto" align="right">
-            <h2 class="{{ comms }}" style="margin:2% 0 3% 0;display:inline"></h2></div></div>
-          </div>
-
-
-
-
-          {% if comms == "open" %}
-
-          <!-- donation buttons -->
-
-          <div align="center" class="commbuttons">
-
-            <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#77a84f', 'V7V694TRC');kofiwidget2.draw();</script>
-
-            <div class="btn-container">
-              <a title="Support me on Vgen.com" class="kofi-button" style="background-color:#77a84f;" href="https://vgen.co/chimera" target="_blank"> <span class="kofitext"><img src="/img/vgen.png" alt="Vgen donations" class="kofiimg vgen">Support me on Vgen</span></a>
-            </div>
-
-          </div>
-
-          {% endif %}
-
-          <div class="inner">
-            <p align="center" style="margin:0">Wanna help keep this site alive? Check out my avaliable commission types! You can also view my current queue <a href="https://trello.com/b/iMZp3z7S/chimeras-art-and-commission-queue" target="_blank">here</a>.</p>
-          </div>
-      </div>
-
-      <div style="padding-top:0;margin-top:1em" class="outer">
-        <div class="center"><h2 style="margin:2% 0 3% 0;display:inline-block"><img src="/img/dog.gif" alt="Fursona pixel" style="margin-bottom: -8px"> Link out...</h2>
-
-          <div class="inner">
-
-          </div>
-
-        </div>
-      </div>
-
-
-    </div>
-
-    <div class="column">
-      <div class="outer" style="padding-top:0">
-        <h2 style="margin:2% 0 3% 0;display:inline-block"> <img src="/img/tv.gif" alt="TV pixel"> Shoutbox...</h2>
-
-        <div class="inner" style="padding:0">
-          <iframe src='https://iframe.chat/embed?chat=35700443' id='chattable' frameborder='none'></iframe>
-          <script>
-            chattable.initialize({
-              stylesheet : "/css/chattable.css"
-            });
-          </script>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <!-- Ad banner -->
-  <div class="row" style="align-items: center; align-content: center;">
-     <p class="ad" style="text-align: center;float:left;max-width: 50vw;min-width: 45vw;">
-      <img src="/img/art/eggbanner.gif">
-    </p>
-
-    <h1 align="right" class="loop">... and have a great day!</h1>
-  </div>
+  <h1 align="right" class="loop">... and have a great day!</h1>
+</div>

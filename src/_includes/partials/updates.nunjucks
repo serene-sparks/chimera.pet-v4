@@ -1,0 +1,24 @@
+<!-- filepath: /home/ethan/workspaces/web/chimera.pet-v4/src/_includes/updates.njk -->
+<div class="inner updates">
+  {% for update in collections.updates %}
+    <p>
+      {% if update.data.icon %}
+        <img src="{{ update.data.icon }}" alt="{{ update.data.iconAlt }}">
+      {% endif %}
+      <b>{{ update.data.date }}</b> - {{ update.templateContent }}
+    </p>
+  {% endfor %}
+
+  <!-- ARCHIVES -->
+  <details>
+    <summary>
+      <img src="/img/spiral.gif" alt="Color alternating CMYK spiral">
+      <b>OLDER ENTRIES</b> - peer through the archives...
+    </summary>
+    {% for archive in collections.archives %}
+      <p style="border-top: 3px double">
+        <b>{{ archive.data.date }}</b> - {{ archive.templateContent }}
+      </p>
+    {% endfor %}
+  </details>
+</div>

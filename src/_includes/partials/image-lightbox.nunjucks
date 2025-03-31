@@ -1,0 +1,22 @@
+{#
+  Usage:
+  {% include "partials/image-lightbox.nunjucks" with {
+    src: "/path/to/image.jpg",
+    alt: "Image description",
+    caption: "Optional caption text"
+  } %}
+#}
+
+<div class="image-container">
+  <a href="#lightbox-{{ imageData.src | replace(/\//g, '-') }}" class="lightbox-trigger">
+    <img src="{{ imageData.src }}" alt="{{ imageData.alt }}" loading="lazy">
+    {% if imageData.caption %}
+      <div class="image-caption">{{ imageData.caption }}</div>
+    {% endif %}
+  </a>
+</div>
+
+<div id="lightbox-{{ imageData.src | replace(/\//g, '-') }}" class="lightbox">
+  <a href="#" class="lightbox-close">&times;</a>
+  <img src="{{ imageData.src }}" alt="{{ imageData.alt }}">
+</div>

@@ -1,4 +1,5 @@
 import { DateTime } from "luxon";
+import matter from "gray-matter";
 
 // See https://moment.github.io/luxon/#/zones?id=specifying-a-zone
 // Use the TZ identifier https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -35,10 +36,25 @@ export default function (eleventyConfig) {
       return "Unknown date";
     }
   });
+
+// Collection for recent updates
+eleventyConfig.addCollection("updates", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("./src/updates/*.md");
+});
+
+// // Collection for archived updates
+// eleventyConfig.addCollection("archives", function (collectionApi) {
+//     return collectionApi.getFilteredByGlob("./src/updates/archives/*.md").map((item) => {
+//         const { data, content } = matter(item.template.frontMatter.content);
+//         return {
+//             date: data.date,
+//             icon: data.icon,
+//             iconAlt: data.iconAlt,
+//             content: content.trim(),
+//         };
+//     });
+// });
 };
-
-
-
 
 export const config = {
   passthroughFileCopy: true,
